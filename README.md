@@ -24,8 +24,8 @@ system before I call it done. Every change on a client store is proposed before 
 after it ships, and logged with a rollback.
 
 The verification is the job. A regression suite I wrote against a frozen baseline caught a defect in
-my own parser that had been dropping base prices out of bundled orders, a five-figure understatement
-across fifty orders. A strict XML parse of a product feed I rebuilt surfaced four defects that every
+my own parser that had been dropping base prices out of bundled orders, before anyone acted on the
+numbers. A strict XML parse of a product feed I rebuilt surfaced four defects that every
 browser renders without complaining. I keep a record of the defects I find, and my own are in it.
 
 Case study with sourced figures: [atlasdigital.design/work/intertwine](https://atlasdigital.design/work/intertwine/)
