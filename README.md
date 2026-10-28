@@ -12,6 +12,12 @@ schema.org has no vocabulary for, a replacement Pinterest catalog feed written i
 repricing tool that captures its own rollback file before it writes anything, and the allocation
 core of a revenue-split app that reconciles to the cent.
 
+**[atlas-site-probe](https://github.com/AtlasDigitalDesign/atlas-site-probe)**
+A read-only checker for the problems that quietly break small online stores: a canonical pointing
+at the wrong page, a noindex hidden in a response header, a JSON-LD block one stray comma away from
+being ignored, a cart that errors. Results go to a Clay table or straight into HubSpot as a company
+record with a note, and every defect it reports has a test fixture behind it.
+
 **[atlasofplantbased-mcp](https://github.com/AtlasDigitalDesign/atlasofplantbased-mcp)**
 A read-only MCP server for Pacific Crest Trail data. Twenty-six legs by trail mile, towns, passes
 and lakes, and vegan resupply at 64 stops with last-checked dates. The dataset is also on
