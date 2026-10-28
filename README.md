@@ -7,8 +7,8 @@ them, and the imagery that sells the product. Denver, Colorado.
 Most of what I ship lives inside a client's business, so this account holds the pieces I can show.
 
 **[atlas-shopify-toolkit](https://github.com/AtlasDigitalDesign/atlas-shopify-toolkit)**
-Selected code from a production Shopify store. Product and collection JSON-LD for a product type
-schema.org has no vocabulary for, a replacement Pinterest catalog feed written in Liquid, a sitewide
+Selected code from a production Shopify store. Product and collection JSON-LD for house plans,
+with the plan specs as structured properties, a replacement Pinterest catalog feed written in Liquid, a sitewide
 repricing tool that captures its own rollback file before it writes anything, and the allocation
 core of a revenue-split app that reconciles to the cent.
 
